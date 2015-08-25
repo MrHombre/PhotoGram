@@ -24,9 +24,9 @@ describe 'editing posts' do
   scenario "a post won't update without an attached image" do
     find(:xpath, "//a[contains(@href,'posts/1')]").click
     click_link 'Edit Post'
-#    attach_file('Image', 'spec/files/coffee.zip')
-#    click_button 'Update Post'
+    attach_file('Image', 'spec/files/coffee.zip')
+    click_button 'Update Post'
 
-#    expect(page).to have_content('Something is wrong with your form!')
+    expect(page).to have_content('Something is wrong with your form!')
   end
 end
