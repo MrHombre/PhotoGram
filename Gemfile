@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'auto_html', '~> 1.6.4'
 gem 'slim', '~> 3.0.6'
+gem 'simple_form', '~> 3.1.0'
 
 # Design
 
