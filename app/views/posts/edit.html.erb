@@ -1,0 +1,7 @@
+<%= image_tag @post.image.url(:medium) %>
+
+<%= simple_form_for @post, html: { class: 'form-horizontal', multipart: true } do |f| %>
+  <%= f.input :image %>
+  <%= f.input :caption %>
+  <%= f.button :submit, class: 'btn-success' %>
+<% end %>
