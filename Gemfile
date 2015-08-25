@@ -18,6 +18,7 @@ gem 'paperclip', '~> 4.3.0'
 
 # Design
 
+gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'font-awesome-rails', '~> 4.4.0.0'
 gem 'bourbon', '~> 4.2.3'
 gem 'neat', '~> 1.7.2'

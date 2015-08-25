@@ -5,8 +5,6 @@ describe 'editing posts' do
     job = create(:post)
 
     visit '/'
-#    find(:xpath, "//a[contains(@href,'posts/1')]").click
-#    click_link 'Edit Post'
   end
 
   scenario 'can edit a post' do
