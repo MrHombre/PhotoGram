@@ -1,28 +1,20 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Home
+![screen shot 2015-10-26 at 5 19 53 pm](https://cloud.githubusercontent.com/assets/12551985/10746260/39fe365a-7c06-11e5-936a-55ee01a9f182.png)
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Log-In
+![screen shot 2015-10-26 at 5 08 02 pm](https://cloud.githubusercontent.com/assets/12551985/10746181/87b04a60-7c05-11e5-8b96-e05fc371d370.png)
+
+Sign-Up
+![screen shot 2015-10-26 at 5 07 24 pm](https://cloud.githubusercontent.com/assets/12551985/10746185/90f44fb8-7c05-11e5-97f1-59e398bd48c7.png)
+
+A Few Tests
+![screen shot 2015-10-26 at 5 20 49 pm](https://cloud.githubusercontent.com/assets/12551985/10746239/056599b0-7c06-11e5-8646-665717a689e1.png)
+![screen shot 2015-10-26 at 5 20 59 pm](https://cloud.githubusercontent.com/assets/12551985/10746242/058dd006-7c06-11e5-8c81-a783b890fa92.png)
+![screen shot 2015-10-26 at 5 21 08 pm](https://cloud.githubusercontent.com/assets/12551985/10746241/058c0b9a-7c06-11e5-8a90-373e6ff5b0e4.png)
+
+Controller actions
+![screen shot 2015-10-26 at 5 22 10 pm](https://cloud.githubusercontent.com/assets/12551985/10746254/2a9972ce-7c06-11e5-97d5-461501bfc608.png)
+![screen shot 2015-10-26 at 5 22 23 pm](https://cloud.githubusercontent.com/assets/12551985/10746255/2abbe70a-7c06-11e5-9370-403ff5f79f51.png)

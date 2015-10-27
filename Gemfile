@@ -15,6 +15,7 @@ gem 'auto_html', '~> 1.6.4'
 gem 'slim', '~> 3.0.6'
 gem 'simple_form', '~> 3.1.0'
 gem 'paperclip', '~> 4.3.0'
+gem 'devise', '~> 3.5.2'
 
 # Design
 

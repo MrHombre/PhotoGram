@@ -29,10 +29,21 @@ require 'shoulda/matchers'
 # If you are not using ActiveRecord, you can remove this line.
 ActiveRecord::Migration.maintain_test_schema!
 
+module AuthHelpers
+  def sign_in_with (user)
+    visit '/'
+    fill_in 'Email', with: user.email
+    fill_in 'Password', with: user.password
+    click_button 'Log in'
+  end
+end
+
 RSpec.configure do |config|
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
   config.include FactoryGirl::Syntax::Methods
+
+  config.include AuthHelpers, type: :feature  
 
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
   # examples within a transaction, remove the following line or assign false

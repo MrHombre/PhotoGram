@@ -1,11 +1,17 @@
 require 'spec_helper'
 
-describe 'viewing individual posts' do
-  it 'can click and view a post' do
-    post = create(:post)
+feature 'viewing individual posts' do
+  background do
+    user = create :user
+    post = create :post
 
     visit '/'
-    find(:xpath, "//a[contains(@href,'posts/1')]").click
-    expect(page.current_path).to eq(post_path(post))
+    fill_in 'Email', with: user.email
+    fill_in 'Password', with: user.password
+    click_button 'Log in'
   end
-end
+  scenario 'can click and view a single post from the index' do
+    find(:xpath, "//a[contains(@href,'posts/1')]").click
+    expect(page.current_path).to eq(post_path(1))
+  end
+end  
